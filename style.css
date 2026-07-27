@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    background-color: rgb(200, 200, 255);
+    height: 100px;
+    width: 100%;
+}
+#img-logo
+{
+    padding-left: 0%;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+nav
+{
+    background-color: rgb(10, 0, 100);
+    width: 100%;
+    height: auto;
+}
+nav ul
+{
+    display: flex;
+    gap: 40px;
+}
+main
+{
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    height: 200px;
+}
+aside
+{
+    text-align: center;
+    background-color: rgb(50, 0, 150);
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+section
+{
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+}
