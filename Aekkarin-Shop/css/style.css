@@ -68,13 +68,13 @@ header h1{
 .side-menu{
     float: left;
     width: 20%;
-    height: 600px;
     border: 1px solid black;
 }
 .h3{
     text-align: center;
 }
 .side-menu a{
+    color: black;
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -87,26 +87,82 @@ header h1{
 /* =========================================[CONTENT]============================================= */
 
 .content{
+    text-align: center;
     float: left;
     width: 80%;
     border: 1px solid black;
+}
+.content h2{
+    margin: 20px;
+}
+.product-list{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 .product{
     width: 200px;
-    height: 400px;
+    height: 250px;
     flex-shrink: 0;
     margin: 40px;
     border: 1px solid black;
+}
+.product img{
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* =========================================[CART]============================================= */
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+.cart-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    table-layout: fixed;
+}
+.cart-table th,.cart-table td{
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.cart-table img{
+    width: 70px;
+}
+.total{
+    text-align: right;
+    font-weight: bold;
+}
+.cart-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart-button a{
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.cart-button a:hover{
+    background: #555;
 }
 
 /* =========================================[FOOTER]============================================= */
 
 footer{
+    background: #333;
+    color: white;
     clear: both;
     width: 100%;
-    height: 80px;
+    height: 120px;
+    text-align: center;
+    padding: 20px;
     border: 1px solid black;
 }
