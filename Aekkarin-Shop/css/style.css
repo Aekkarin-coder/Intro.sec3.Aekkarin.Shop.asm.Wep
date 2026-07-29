@@ -154,6 +154,56 @@ main{
     background: #555;
 }
 
+/* =========================================[CONFIRM]============================================= */
+
+.order-box{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.order-box input,.order-box textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.order-box textarea{
+    height: 100px;
+}
+.order-box a{
+    text-decoration: none;
+    margin-top: 20px;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+.order-box a:hover{
+    background: #555;
+}
+
+/* =========================================[SUCCESS]============================================= */
+
+.success-box{
+    text-align: center;
+    padding: 50px;
+}
+.success-box a{
+    display: inline-block;
+    margin-top: 20px;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.success-box a:hover{
+    background: #555;
+}
+
 /* =========================================[FOOTER]============================================= */
 
 footer{
@@ -165,4 +215,41 @@ footer{
     text-align: center;
     padding: 20px;
     border: 1px solid black;
+}
+
+/* =========================================[product details]============================================= */
+
+.product-detail{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.product-detail img{
+    width: 300px;
+}
+.detail-info{
+    padding: 20px;
+}
+.add-cart{
+    display: inline-block;
+    margin-top: 20px;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.more a{
+    text-decoration: none;
+    background: #333;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+.more a:hover{
+    background: #555;
 }
