@@ -89,7 +89,16 @@ header h1{
 .content{
     float: left;
     width: 80%;
-    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product{
+    width: 200px;
+    height: 400px;
+    flex-shrink: 0;
+    margin: 40px;
     border: 1px solid black;
 }
 
